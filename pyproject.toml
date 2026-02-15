@@ -1,0 +1,15 @@
+[project]
+name = "local_rag"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Joe Imhoff", email = "joe.imhoff@outlook.com"},
+]
+dependencies = ["crewai>=1.9.3", "langchain>=1.2.10", "ollama>=0.6.1", "chromadb>=1.1.1", "langchain-community>=0.4.1", "langchain-huggingface>=1.2.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
